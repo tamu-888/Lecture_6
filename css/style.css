@@ -1,0 +1,525 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  padding: 22px 100px;
+}
+
+.nav {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 195px;
+}
+
+.list-item {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #696969;
+}
+
+.logo {
+  vertical-align: middle;
+}
+
+.booknow {
+  padding: 13px 50px;
+  background-color: #ff5403;
+  margin-left: 160px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Banner */
+
+.banner_container {
+  width: 100%;
+  height: 722px;
+  background-image: url(..//images/banner_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+  padding-top: 190px;
+}
+
+.title {
+  color: #fff;
+  font-size: 96px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 115px;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+  margin: 5px 0px 79px 0px;
+}
+
+.discovernow {
+  background-color: #ff5403;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  display: inline-block;
+  padding: 22px 50px;
+}
+
+/* Top Places to visit */
+.topplace {
+  width: 1312px;
+  height: 1182px;
+  margin: 100px auto 100px auto;
+}
+
+.topplace-title {
+  color: #041562;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+  text-align: center;
+}
+
+.topplace-disc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #626262;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.one {
+  width: 631px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 75px;
+}
+
+.two {
+  width: 631px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 75px;
+  margin-left: 45px;
+}
+
+.three {
+  width: 631px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 50px;
+}
+
+.four {
+  width: 631px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 50px;
+  margin-left: 45px;
+}
+
+.discovermore {
+  padding: 22px 62px;
+  background-color: #ff5403;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  display: inline-block;
+  /* margin: 75px auto 0px auto; ar mushaobs auto da arc text-align-centr*/
+  margin-top: 75px;
+  margin-left: 532px;
+}
+
+/* container2 */
+.container {
+  width: 100%;
+  height: 879px;
+  /* background-image: url(/images/second_banner.jpg); */
+  background-image: url("../images/second_banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.cont {
+  width: 641px;
+  height: 616px;
+  background-color: #fff;
+  display: inline-block;
+  padding: 60px 50px;
+  margin: 118px 300px 145px 600px;
+}
+
+/* margin: 118px 300px 145px 600px აქ ვერ გავიგე ფიგმაში რამდენით უნდა გამომეწია მარჯვნივ */
+.event {
+  color: #ff5403;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.cont-title {
+  color: #041562;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  margin-top: 15px;
+}
+
+.cont-descr {
+  color: #626262;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 25px;
+}
+
+.container-list {
+  color: #626262;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 31px;
+}
+
+.raiting_div {
+  width: 221px;
+  height: 35px;
+  margin-top: 31px;
+  margin-bottom: 32px;
+}
+
+.rating {
+  color: #626262;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.raitingstar {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.plan_details {
+  background-color: #ff5403;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  padding: 15px 47px;
+}
+
+/* Top Hotel & Restorants */
+.top {
+  width: 1312px;
+  margin: 100px auto 100px auto;
+}
+
+.top-title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+  color: #041562;
+  text-align: center;
+}
+
+.top-desc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #626262;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tophotel-cards {
+  margin-top: 75px;
+}
+
+.topcard-one,
+.topcard-three {
+  margin-top: 75px;
+  width: 404px;
+  display: inline-block;
+}
+
+.topcard-two {
+  width: 404px;
+  display: inline-block;
+  margin: 0px 43px;
+}
+
+.hotel-title {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  margin-top: 40px;
+}
+
+.star {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.review-amount {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 4px;
+  font-weight: 300;
+}
+
+.location {
+  font-size: 18px;
+  color: #626262;
+  font-weight: 300;
+  margin: 10px 0px;
+  line-height: 170%;
+}
+
+.price {
+  font-size: 18px;
+  color: #020202;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.price_tag {
+  color: #da1212;
+}
+
+/* FEEDBACK */
+.section_feedback {
+  width: 100%;
+  height: 679px;
+  background-color: #041562;
+  padding: 100px 100px;
+}
+
+.gacentre {
+  width: 1312px;
+  height: 479px;
+  margin: 0px auto 0px auto;
+}
+
+.feedback-title {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.previous-icon {
+  margin-left: 897px;
+  vertical-align: middle;
+}
+
+.next-icon {
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+.feedback_cardone {
+  display: inline-block;
+  width: 404px;
+  height: 339px;
+  padding: 24px 32px 24px 32px;
+  background-color: #3045a599;
+  border-radius: 2px;
+  margin-top: 80px;
+}
+
+.feedback_cardtwo {
+  display: inline-block;
+  width: 404px;
+  height: 339px;
+  padding: 24px 32px 24px 32px;
+  background-color: #3045a599;
+  border-radius: 2px;
+  margin: 0px 45px;
+}
+
+.feedback_cardthree {
+  display: inline-block;
+  width: 404px;
+  height: 339px;
+  padding: 24px 32px 24px 32px;
+  background-color: #3045a599;
+  border-radius: 2px;
+}
+
+.feedback-text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 35px 0px 35px 0px;
+}
+
+.id-details {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* OFFERS */
+.services {
+  width: 1312px;
+  margin: 160px auto 160px auto;
+}
+
+.offers-title {
+  color: #041562;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+}
+
+.offer-desc {
+  color: #626262;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 20px;
+}
+
+.services-cardone {
+  display: inline-block;
+  width: 404px;
+  margin-top: 70px;
+}
+
+.services-cardthree {
+  display: inline-block;
+  width: 404px;
+}
+
+.services-cardtwo {
+  display: inline-block;
+  width: 404px;
+  margin: 0px 45px;
+}
+
+.services-title {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  margin-top: 40px;
+}
+
+.services-desc {
+  color: #626262;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 454px;
+  background-color: #19224d;
+  padding: 108px 100px 80px 100px;
+
+}
+
+.footer-content {
+  width: 1312px;
+  height: 266px;
+  margin: 0px auto 0px auto;
+}
+
+.copyright {
+  width: 100%;
+  height: 65px;
+  background-color: #000b3e;
+}
+
+.copy-descr {
+  color: #c4c4c4;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  padding: 23px 630px;
+}
+
+.ftcard-one {
+  width: 337px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ftcard-two {
+  width: 314px;
+  display: inline-block;
+  margin: 0px 154px;
+  vertical-align: top;
+}
+
+.ftcard-three {
+  width: 344px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ft_title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-bottom: 30px;
+}
+
+.ft-list-item {
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.info {
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.contact_title {
+  margin-bottom: 30px;
+}
+
+.socmedia {
+  color: #ff5403;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 23px;
+  margin-bottom: 8px;
+}
+
+.fb {
+  margin: 0px 15px;
+}
